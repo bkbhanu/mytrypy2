@@ -1,0 +1,25 @@
+Hello World - OK
+Basic in-built functions - Loops, Conditionals, others  - OK
+Read/Write Files - OK
+Read write html from web - OK
+Read and Parse HTML Tags, Screenscrape using BeautifulSoup - OK
+--------------------------------------------------------------------------
+Rough order of priority (Subject to the usual conditions of bandwidth ;)
+--------------------------------------------------------------------------
+Scrape and document in tables - 1 week
+Custom/UDEF Functions - 2 weeks
+JSON, REST APIs - 3 weeks
+Read Googleapis for Maps - 1 week
+	1) Geocodes
+	2) Map usage
+	3) Retreival both ways - location < > Geocodes
+Read/Write to Twitter profile - 1 week
+FullContact.com integration & API - 1 week
+Helloworld with Devices
+	1) TI Sensortag - 2 weeks
+		- Button press
+		- Sensor reads
+		- Sensor read/post to social
+		- Sensor fusion  	- Nice to have
+	2) Mobile App - 1 week
+	3) Raspberry Pi 2 3) - 3 weeks
