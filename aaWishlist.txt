@@ -28,8 +28,21 @@ Helloworld with Devices
 		- Sensor fusion  	- Nice to have
 	2) Mobile App - 1 week
 	3) Raspberry Pi 2 / Noobs > Raspbian (Wheezy) > Win IoT Core - 3 weeks
-	4) Galelio / Win IoT Core - 3 weeks (Nice to have)
+	4) Galileo / Win IoT Core - 3 weeks (Nice to have)
 Databases - 3 weeks
 	1) RDBMS refresh
 	2) SQL refresh
-	3) Connections/Operations
+	3) Connections/Operations	
+--------------------------------------------------------------------------
+Potential intervention based on past interest !!! 
+--------------------------------------------------------------------------
+UI/Web Development Basics
+	1) HTML refresh, JS refresh, CSS refresh - 2  weeks
+	2) Hello Django - 1 weeks
+	3) Django custom site - 8 weeks
+	4) Django integrations - social, DB, others - 3 weeks (Nice to have)
+--------------------------------------------------------------------------
+Other nice to haves !!! 
+--------------------------------------------------------------------------
+RoR
+Mobile + Sensors + DB
