@@ -23,3 +23,7 @@ Helloworld with Devices
 		- Sensor fusion  	- Nice to have
 	2) Mobile App - 1 week
 	3) Raspberry Pi 2 3) - 3 weeks
+Databases - 3 weeks
+	1) RDBMS refresh
+	2) SQL refresh
+	3) Connections/Operations
