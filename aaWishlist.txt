@@ -24,9 +24,11 @@ Helloworld with Devices
 		- Button press
 		- Sensor reads
 		- Sensor read/post to social
+		- Hub concepts
 		- Sensor fusion  	- Nice to have
 	2) Mobile App - 1 week
-	3) Raspberry Pi 2 3) - 3 weeks
+	3) Raspberry Pi 2 / Noobs > Raspbian (Wheezy) > Win IoT Core - 3 weeks
+	4) Galelio / Win IoT Core - 3 weeks (Nice to have)
 Databases - 3 weeks
 	1) RDBMS refresh
 	2) SQL refresh
