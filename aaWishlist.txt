@@ -1,6 +1,9 @@
 Hello World - OK
 Basic in-built functions - Loops, Conditionals, others  - OK
 Read/Write Files - OK
+Regular Expressions-RE (absolute basics) - OK
+RE for text extraction and word spotting - OK
+RE for validations (passwords/text inputs) - OK
 Read write html from web - OK
 Read and Parse HTML Tags, Screenscrape using BeautifulSoup - OK
 --------------------------------------------------------------------------
@@ -15,6 +18,7 @@ Read Googleapis for Maps - 1 week
 	3) Retreival both ways - location < > Geocodes
 Read/Write to Twitter profile - 1 week
 FullContact.com integration & API - 1 week
+Exceptions/Try/Catch and the like - 2 weeks
 Helloworld with Devices
 	1) TI Sensortag - 2 weeks
 		- Button press
