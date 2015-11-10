@@ -21,7 +21,8 @@ for links in soup.find_all("div"):
 	k = k+1
 print("the total number of links is: "+ str(k))
 
-data = soup.find_all("span", {"class": "ccOutputRslt"}) #, {"class": "rateDown"})
+#data = soup.find_all("span", {"class": "ccOutputRslt"}) #, {"class": "rateDown"})
+data = soup.find_all("span", {"class": "ccOutputTrail"}) #, {"class": "rateDown"})
 n = 0
 for item in data:
 	print("==================")
