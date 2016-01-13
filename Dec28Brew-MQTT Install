@@ -1,0 +1,680 @@
+Last login: Sun Dec 27 09:21:39 on ttys000
+Bhanu:~ Bhanu$ node-red
+
+
+Welcome to Node-RED
+===================
+
+27 Dec 17:51:17 - [info] Node-RED version: v0.12.4
+27 Dec 17:51:17 - [info] Node.js  version: v4.2.3
+27 Dec 17:51:17 - [info] Loading palette nodes
+27 Dec 17:51:18 - [warn] ------------------------------------------
+27 Dec 17:51:18 - [warn] Failed to register 1 node type
+27 Dec 17:51:18 - [warn] Run with -v for details
+27 Dec 17:51:18 - [warn] ------------------------------------------
+27 Dec 17:51:18 - [info] Settings file  : /Users/Bhanu/.node-red/settings.js
+27 Dec 17:51:18 - [info] User directory : /Users/Bhanu/.node-red
+27 Dec 17:51:18 - [info] Flows file : /Users/Bhanu/.node-red/flows_Bhanu.local.json
+27 Dec 17:51:18 - [info] Server now running at http://127.0.0.1:1880/
+27 Dec 17:51:18 - [info] Starting flows
+27 Dec 17:51:18 - [info] Started flows
+^C27 Dec 18:08:42 - [info] Stopping flows
+Bhanu:~ Bhanu$ node-red
+
+
+Welcome to Node-RED
+===================
+
+27 Dec 21:53:36 - [info] Node-RED version: v0.12.4
+27 Dec 21:53:36 - [info] Node.js  version: v4.2.3
+27 Dec 21:53:36 - [info] Loading palette nodes
+27 Dec 21:53:37 - [warn] ------------------------------------------
+27 Dec 21:53:37 - [warn] Failed to register 1 node type
+27 Dec 21:53:37 - [warn] Run with -v for details
+27 Dec 21:53:37 - [warn] ------------------------------------------
+27 Dec 21:53:37 - [info] Settings file  : /Users/Bhanu/.node-red/settings.js
+27 Dec 21:53:37 - [info] User directory : /Users/Bhanu/.node-red
+27 Dec 21:53:37 - [info] Flows file : /Users/Bhanu/.node-red/flows_Bhanu.local.json
+27 Dec 21:53:37 - [info] Server now running at http://127.0.0.1:1880/
+27 Dec 21:53:37 - [info] Starting flows
+27 Dec 21:53:37 - [info] Started flows
+^C28 Dec 08:56:08 - [info] Stopping flows
+Bhanu:~ Bhanu$ brew
+-bash: brew: command not found
+Bhanu:~ Bhanu$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+-e:77: warning: Insecure world writable dir /usr in PATH, mode 040777
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
+==> The following directories will be made group writable:
+/usr/local/.
+/usr/local/bin
+/usr/local/etc
+/usr/local/lib
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man8
+/usr/local/share/doc
+==> The following directories will have their owner set to Bhanu:
+/usr/local/.
+/usr/local/bin
+/usr/local/etc
+/usr/local/lib
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man8
+/usr/local/share/doc
+==> The following directories will have their group set to admin:
+/usr/local/.
+/usr/local/bin
+/usr/local/etc
+/usr/local/lib
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man8
+/usr/local/share/doc
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/. /usr/local/bin /usr/local/etc /usr/local/lib /usr/local/share /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man8 /usr/local/share/doc
+Password:
+==> /usr/bin/sudo /usr/sbin/chown Bhanu /usr/local/. /usr/local/bin /usr/local/etc /usr/local/lib /usr/local/share /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man8 /usr/local/share/doc
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/. /usr/local/bin /usr/local/etc /usr/local/lib /usr/local/share /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man8 /usr/local/share/doc
+==> /usr/bin/sudo /bin/mkdir /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown Bhanu /Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Counting objects: 3915, done.
+remote: Compressing objects: 100% (3759/3759), done.
+remote: Total 3915 (delta 30), reused 2292 (delta 19), pack-reused 0
+Receiving objects: 100% (3915/3915), 3.40 MiB | 1.99 MiB/s, done.
+Resolving deltas: 100% (30/30), done.
+From https://github.com/Homebrew/homebrew
+ * [new branch]      master     -> origin/master
+HEAD is now at e3ef0bc wget: update 1.17.1 bottle.
+==> Installation successful!
+==> Next steps
+Run `brew help` to get started
+Bhanu:~ Bhanu$ brew install mosquitto
+==> Installing dependencies for mosquitto: c-ares, openssl, libwebsockets
+==> Installing mosquitto dependency: c-ares
+==> Downloading https://homebrew.bintray.com/bottles/c-ares-1.10.0.yosemite.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring c-ares-1.10.0.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.10.0: 57 files, 540K
+==> Installing mosquitto dependency: openssl
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2e.yosemite.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring openssl-1.0.2e.yosemite.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2e: 465 files, 17M
+==> Installing mosquitto dependency: libwebsockets
+==> Downloading https://homebrew.bintray.com/bottles/libwebsockets-1.4.yosemite.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring libwebsockets-1.4.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/libwebsockets/1.4: 23 files, 3.3M
+==> Installing mosquitto
+==> Downloading https://homebrew.bintray.com/bottles/mosquitto-1.4.5.yosemite.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Pouring mosquitto-1.4.5.yosemite.bottle.1.tar.gz
+==> Caveats
+mosquitto has been installed with a default configuration file.
+You can make changes to the configuration by editing:
+    /usr/local/etc/mosquitto/mosquitto.conf
+
+To have launchd start mosquitto at login:
+  ln -sfv /usr/local/opt/mosquitto/*.plist ~/Library/LaunchAgents
+Then to load mosquitto now:
+  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mosquitto.plist
+Or, if you don't want/need launchctl, you can just run:
+  mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+==> Summary
+🍺  /usr/local/Cellar/mosquitto/1.4.5: 28 files, 704K
+Bhanu:~ Bhanu$ mosquitto
+-bash: mosquitto: command not found
+Bhanu:~ Bhanu$ mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+-bash: mosquitto: command not found
+Bhanu:~ Bhanu$ $ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+-bash: $: command not found
+Bhanu:~ Bhanu$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+1451278130: mosquitto version 1.4.5 (build date 2015-12-17 07:56:31-0800) starting
+1451278130: Config loaded from /usr/local/etc/mosquitto/mosquitto.conf.
+1451278130: Opening ipv4 listen socket on port 1883.
+1451278130: Opening ipv6 listen socket on port 1883.
+mosquitto
+1451278393: New connection from 127.0.0.1 on port 1883.
+1451278393: Socket error on client <unknown>, disconnecting.
+1451278393: New connection from 127.0.0.1 on port 1883.
+1451278393: Socket error on client <unknown>, disconnecting.
+1451278393: New connection from 127.0.0.1 on port 1883.
+1451278393: Socket error on client <unknown>, disconnecting.
+1451278399: New connection from 127.0.0.1 on port 1883.
+1451278399: Socket error on client <unknown>, disconnecting.
+1451278399: New connection from 127.0.0.1 on port 1883.
+1451278399: Socket error on client <unknown>, disconnecting.
+1451278399: New connection from 127.0.0.1 on port 1883.
+1451278399: Socket error on client <unknown>, disconnecting.
+^C1451278489: mosquitto version 1.4.5 terminating
+Bhanu:~ Bhanu$ mosquitto
+-bash: mosquitto: command not found
+Bhanu:~ Bhanu$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+1451278559: mosquitto version 1.4.5 (build date 2015-12-17 07:56:31-0800) starting
+1451278559: Config loaded from /usr/local/etc/mosquitto/mosquitto.conf.
+1451278559: Opening ipv4 listen socket on port 1883.
+1451278559: Opening ipv6 listen socket on port 1883.
+1451278563: New connection from 127.0.0.1 on port 1883.
+1451278563: Socket error on client <unknown>, disconnecting.
+1451278563: New connection from 127.0.0.1 on port 1883.
+1451278563: Socket error on client <unknown>, disconnecting.
+1451278563: New connection from 127.0.0.1 on port 1883.
+1451278563: Socket error on client <unknown>, disconnecting.
+^C1451278573: mosquitto version 1.4.5 terminating
+Bhanu:~ Bhanu$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+1451280036: mosquitto version 1.4.5 (build date 2015-12-17 07:56:31-0800) starting
+1451280036: Config loaded from /usr/local/etc/mosquitto/mosquitto.conf.
+1451280036: Opening ipv4 listen socket on port 1883.
+1451280036: Opening ipv6 listen socket on port 1883.
+mosquitto_sub -v -t 'test/topic'
+
+
+mosquitto_pub -t 'test/topic' -m 'helloWorld'
+
+
+1451280400: New connection from ::1 on port 1883.
+1451280400: New client connected from ::1 as lens_mshAonFdavUwGTAFUC1IDpI47op (c1, k120, u'bhanu').
+^C1451281446: mosquitto version 1.4.5 terminating
+Bhanu:~ Bhanu$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+1451281456: mosquitto version 1.4.5 (build date 2015-12-17 07:56:31-0800) starting
+1451281456: Config loaded from /usr/local/etc/mosquitto/mosquitto.conf.
+1451281456: Opening ipv4 listen socket on port 1883.
+1451281456: Opening ipv6 listen socket on port 1883.
+1451281456: New connection from ::1 on port 1883.
+1451281456: New client connected from ::1 as lens_mshAonFdavUwGTAFUC1IDpI47op (c1, k120, u'bhanu').
+mosquitto_sub -v -t 'test/topic'
+1451281603: New connection from ::1 on port 1883.
+1451281603: New client connected from ::1 as lens_bN9AcesU8wiCo9FFahGlmRrlLK8 (c1, k120, u'bhanu').
+1451281701: Client lens_bN9AcesU8wiCo9FFahGlmRrlLK8 disconnected.
+1451281830: New connection from ::1 on port 1883.
+1451281830: New client connected from ::1 as lens_Kvwe6Os1qTBOxzyKyHsqPI2kAbu (c1, k120).
+1451282243: New connection from 127.0.0.1 on port 1883.
+1451282243: New client connected from 127.0.0.1 as mqtt_eac3573e.153ca8 (c1, k15, u'bhanu').
+1451283121: Client mqtt_eac3573e.153ca8 disconnected.
+1451283121: New connection from 127.0.0.1 on port 1883.
+1451283121: New connection from 127.0.0.1 on port 1883.
+1451283121: New client connected from 127.0.0.1 as mqtt_bba01c3e.445fe (c1, k15, u'bhanu').
+1451283121: New client connected from 127.0.0.1 as mqtt_dc783754.2387c8 (c1, k15, u'bhanu').
+1451286336: Client mqtt_bba01c3e.445fe disconnected.
+1451286336: Client mqtt_dc783754.2387c8 disconnected.
+^C1451286343: mosquitto version 1.4.5 terminating
+Bhanu:~ Bhanu$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+1451291251: mosquitto version 1.4.5 (build date 2015-12-17 07:56:31-0800) starting
+1451291251: Config loaded from /usr/local/etc/mosquitto/mosquitto.conf.
+1451291251: Opening ipv4 listen socket on port 1883.
+1451291251: Opening ipv6 listen socket on port 1883.
+^C1451291257: mosquitto version 1.4.5 terminating
+Bhanu:~ Bhanu$ node-red
+
+
+Welcome to Node-RED
+===================
+
+28 Dec 13:57:47 - [info] Node-RED version: v0.12.4
+28 Dec 13:57:47 - [info] Node.js  version: v4.2.3
+28 Dec 13:57:47 - [info] Loading palette nodes
+28 Dec 13:57:48 - [warn] ------------------------------------------
+28 Dec 13:57:48 - [warn] Failed to register 1 node type
+28 Dec 13:57:48 - [warn] Run with -v for details
+28 Dec 13:57:48 - [warn] ------------------------------------------
+28 Dec 13:57:48 - [info] Settings file  : /Users/Bhanu/.node-red/settings.js
+28 Dec 13:57:48 - [info] User directory : /Users/Bhanu/.node-red
+28 Dec 13:57:48 - [info] Flows file : /Users/Bhanu/.node-red/flows_Bhanu.local.json
+28 Dec 13:57:48 - [info] Server now running at http://127.0.0.1:1880/
+28 Dec 13:57:48 - [info] Starting flows
+28 Dec 13:57:48 - [info] Started flows
+28 Dec 13:57:48 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:57:48 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:03 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:03 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:18 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:18 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:33 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:33 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:48 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:58:48 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:03 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:03 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:18 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:33 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:48 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 13:59:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:00:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:01:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:02:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:03:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:04:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:05:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+^[[A^[[A^[[A^[[28 Dec 14:06:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:06:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+^R
+28 Dec 14:07:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:07:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:08:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:09:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:34 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:49 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:10:49 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:11:04 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:11:04 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:11:19 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:11:19 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 14:11:34 - [info] [mqtt-broker:cc4bcf99.33b43] Connected to broker: mqtt://localhost:1883
+28 Dec 14:11:34 - [info] [mqtt-broker:ffdd9a53.002268] Connected to broker: mqtt://localhost:1883
+28 Dec 14:12:10 - [info] Stopping modified flows
+28 Dec 14:12:10 - [info] Stopped modified flows
+28 Dec 14:12:10 - [info] Starting modified flows
+28 Dec 14:12:10 - [error] [mqtt in:3b38bf6c.c4c74] TypeError: callback is not a function
+28 Dec 14:12:10 - [info] [mqtt-broker:cc4bcf99.33b43] Disconnected from broker: mqtt://localhost:1883
+28 Dec 14:12:10 - [info] [mqtt-broker:ffdd9a53.002268] Disconnected from broker: mqtt://localhost:1883
+28 Dec 14:12:42 - [info] Stopping modified flows
+28 Dec 14:12:42 - [info] Stopped modified flows
+28 Dec 14:12:42 - [info] Starting modified flows
+28 Dec 14:12:43 - [info] Started modified flows
+28 Dec 14:12:43 - [info] [mqtt-broker:cc4bcf99.33b43] Connected to broker: mqtt://localhost:1883
+28 Dec 14:12:43 - [info] [mqtt-broker:ffdd9a53.002268] Connected to broker: mqtt://localhost:1883
+28 Dec 14:12:43 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:12:45 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:01 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:03 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:08 - [info] Stopping modified flows
+28 Dec 14:13:08 - [info] Stopped modified flows
+28 Dec 14:13:08 - [info] Starting modified flows
+28 Dec 14:13:08 - [info] Started modified flows
+28 Dec 14:13:09 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:11 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:27 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:29 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:45 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:13:47 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:03 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:04 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:20 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:22 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:37 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:39 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:55 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:14:56 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:12 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:14 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:30 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:32 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:48 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:15:50 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:06 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:07 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:16 - [info] Stopping modified flows
+28 Dec 14:16:16 - [info] Stopped modified flows
+28 Dec 14:16:16 - [info] Starting modified flows
+28 Dec 14:16:16 - [info] Started modified flows
+28 Dec 14:16:17 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:19 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:35 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:36 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:52 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:16:54 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:09 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:11 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:26 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:28 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:44 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:17:45 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+^[[A^[[B28 Dec 14:18:01 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:02 - [info] [mqtt-broker:cc4bcf99.33b43] Disconnected from broker: mqtt://localhost:1883
+28 Dec 14:18:02 - [info] [mqtt-broker:ffdd9a53.002268] Disconnected from broker: mqtt://localhost:1883
+28 Dec 14:18:03 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:19 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:21 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:26 - [info] Stopping modified flows
+28 Dec 14:18:26 - [info] Stopped modified flows
+28 Dec 14:18:26 - [info] Starting modified flows
+28 Dec 14:18:26 - [info] Started modified flows
+28 Dec 14:18:26 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:28 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:44 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:18:46 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:02 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:04 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:20 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:22 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:38 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:40 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:19:56 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:00 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:16 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:18 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:34 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:36 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:52 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:20:54 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:10 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:12 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:28 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:30 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:46 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:21:48 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:04 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:06 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:22 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:24 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:40 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:42 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:22:58 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:00 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:16 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:17 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:33 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:35 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:51 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:23:52 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:08 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:10 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:26 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:28 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:44 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:24:46 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:02 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:04 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:20 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:22 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:38 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:40 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:56 - [info] [mqtt-broker:46a30b94.b95cf4] Connected to broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:58 - [info] [mqtt-broker:46a30b94.b95cf4] Disconnected from broker: bkbp@mqtt://iot.eclipse.org:1883
+28 Dec 14:25:58 - [info] Stopping modified flows
+28 Dec 14:25:58 - [info] Stopped modified flows
+28 Dec 14:25:58 - [info] Starting modified flows
+28 Dec 14:25:58 - [error] [mqtt in:eclipsemqtt] missing broker configuration
+28 Dec 14:25:58 - [info] Started modified flows
+^C28 Dec 14:32:12 - [info] Stopping flows
+Bhanu:~ Bhanu$ node-red
+
+
+Welcome to Node-RED
+===================
+
+28 Dec 16:04:43 - [info] Node-RED version: v0.12.4
+28 Dec 16:04:43 - [info] Node.js  version: v4.2.3
+28 Dec 16:04:43 - [info] Loading palette nodes
+28 Dec 16:04:44 - [warn] ------------------------------------------
+28 Dec 16:04:44 - [warn] Failed to register 1 node type
+28 Dec 16:04:44 - [warn] Run with -v for details
+28 Dec 16:04:44 - [warn] ------------------------------------------
+28 Dec 16:04:44 - [info] Settings file  : /Users/Bhanu/.node-red/settings.js
+28 Dec 16:04:44 - [info] User directory : /Users/Bhanu/.node-red
+28 Dec 16:04:44 - [info] Flows file : /Users/Bhanu/.node-red/flows_Bhanu.local.json
+28 Dec 16:04:44 - [info] Server now running at http://127.0.0.1:1880/
+28 Dec 16:04:44 - [info] Starting flows
+28 Dec 16:04:44 - [error] [mqtt in:eclipsemqtt] missing broker configuration
+28 Dec 16:04:44 - [info] Started flows
+28 Dec 16:04:44 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:04:44 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:04:59 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:04:59 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:05:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:06:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:07:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:08:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:09:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:10:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:00 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:15 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:30 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:45 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:52 - [info] Stopping modified nodes
+28 Dec 16:11:52 - [info] Stopped modified nodes
+28 Dec 16:11:52 - [info] Starting modified nodes
+28 Dec 16:11:52 - [info] Started modified nodes
+28 Dec 16:11:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:11:53 - [info] [mqtt-broker:9e4cc2b9.61b34] Connected to broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:12:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:12:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:13:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:14:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:15:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:16:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:07 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:22 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:37 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:52 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:55 - [info] Stopping modified nodes
+28 Dec 16:17:55 - [info] [mqtt-broker:9e4cc2b9.61b34] Disconnected from broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:17:55 - [info] Stopped modified nodes
+28 Dec 16:17:55 - [info] Starting modified nodes
+28 Dec 16:17:55 - [info] Started modified nodes
+28 Dec 16:17:55 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:17:56 - [info] [mqtt-broker:9e4cc2b9.61b34] Connected to broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:18:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:10 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:25 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:40 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:18:55 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:10 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:25 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:40 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:19:55 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:10 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:25 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:40 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:45 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:20:55 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:00 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:10 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:15 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:25 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:30 - [info] [mqtt-broker:cc4bcf99.33b43] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:40 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:42 - [info] Stopping modified nodes
+28 Dec 16:21:42 - [info] [mqtt-broker:9e4cc2b9.61b34] Disconnected from broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:21:42 - [info] Stopped modified nodes
+28 Dec 16:21:42 - [info] Starting modified nodes
+28 Dec 16:21:42 - [error] [mqtt in:mqttinput] missing broker configuration
+28 Dec 16:21:42 - [info] Started modified nodes
+28 Dec 16:21:43 - [info] [mqtt-broker:9e4cc2b9.61b34] Connected to broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:21:55 - [info] [mqtt-broker:ffdd9a53.002268] Connection failed to broker: mqtt://localhost:1883
+28 Dec 16:21:57 - [info] Stopping modified nodes
+28 Dec 16:21:57 - [info] Stopped modified nodes
+28 Dec 16:21:57 - [info] Starting modified nodes
+28 Dec 16:21:57 - [error] [mqtt in:mqttinput] missing broker configuration
+28 Dec 16:21:57 - [info] Started modified nodes
+28 Dec 16:36:26 - [info] [mqtt-broker:9e4cc2b9.61b34] Disconnected from broker: mqtt://m10.cloudmqtt.com:15590
+28 Dec 16:36:42 - [info] [mqtt-broker:9e4cc2b9.61b34] Connected to broker: mqtt://m10.cloudmqtt.com:15590
+^C28 Dec 16:37:06 - [info] Stopping flows
+Bhanu:~ Bhanu$ 
