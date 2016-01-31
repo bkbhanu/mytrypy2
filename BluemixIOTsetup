@@ -1,0 +1,186 @@
+Last login: Tue Jan 19 15:52:58 on console
+Bhanu:~ Bhanu$ ping 192.168.1.50
+PING 192.168.1.50 (192.168.1.50): 56 data bytes
+64 bytes from 192.168.1.50: icmp_seq=0 ttl=64 time=149.330 ms
+64 bytes from 192.168.1.50: icmp_seq=1 ttl=64 time=151.813 ms
+64 bytes from 192.168.1.50: icmp_seq=2 ttl=64 time=2.085 ms
+64 bytes from 192.168.1.50: icmp_seq=3 ttl=64 time=2.261 ms
+64 bytes from 192.168.1.50: icmp_seq=4 ttl=64 time=2.022 ms
+^C
+--- 192.168.1.50 ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.022/61.502/151.813/72.729 ms
+Bhanu:~ Bhanu$ ssh pi@192.168.1.50
+pi@192.168.1.50's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jan 19 14:18:16 2016
+pi@mypi:~$ sudo service xrdp stop
+pi@mypi:~$ 
+pi@mypi:~$ vncserver :1
+
+New 'X' desktop is mypi:1
+
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/mypi:1.log
+
+pi@mypi:~$ Connection to 192.168.1.50 closed by remote host.
+Connection to 192.168.1.50 closed.
+Bhanu:~ Bhanu$ ssh pi@192.168.1.50
+^C
+Bhanu:~ Bhanu$ ping 192.168.1.50
+PING 192.168.1.50 (192.168.1.50): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+Request timeout for icmp_seq 3
+ping: sendto: No route to host
+Request timeout for icmp_seq 4
+ping: sendto: Host is down
+Request timeout for icmp_seq 5
+ping: sendto: Host is down
+Request timeout for icmp_seq 6
+ping: sendto: Host is down
+Request timeout for icmp_seq 7
+ping: sendto: Host is down
+Request timeout for icmp_seq 8
+ping: sendto: Host is down
+Request timeout for icmp_seq 9
+ping: sendto: Host is down
+Request timeout for icmp_seq 10
+ping: sendto: Host is down
+Request timeout for icmp_seq 11
+ping: sendto: Host is down
+Request timeout for icmp_seq 12
+ping: sendto: Host is down
+Request timeout for icmp_seq 13
+ping: sendto: Host is down
+Request timeout for icmp_seq 14
+ping: sendto: Host is down
+Request timeout for icmp_seq 15
+ping: sendto: Host is down
+Request timeout for icmp_seq 16
+ping: sendto: Host is down
+Request timeout for icmp_seq 17
+ping: sendto: Host is down
+Request timeout for icmp_seq 18
+ping: sendto: Host is down
+Request timeout for icmp_seq 19
+ping: sendto: Host is down
+Request timeout for icmp_seq 20
+ping: sendto: Host is down
+Request timeout for icmp_seq 21
+ping: sendto: Host is down
+Request timeout for icmp_seq 22
+ping: sendto: Host is down
+Request timeout for icmp_seq 23
+Request timeout for icmp_seq 24
+Request timeout for icmp_seq 25
+Request timeout for icmp_seq 26
+Request timeout for icmp_seq 27
+Request timeout for icmp_seq 28
+ping: sendto: No route to host
+Request timeout for icmp_seq 29
+ping: sendto: Host is down
+Request timeout for icmp_seq 30
+ping: sendto: Host is down
+Request timeout for icmp_seq 31
+ping: sendto: Host is down
+Request timeout for icmp_seq 32
+ping: sendto: Host is down
+Request timeout for icmp_seq 33
+ping: sendto: Host is down
+Request timeout for icmp_seq 34
+ping: sendto: Host is down
+Request timeout for icmp_seq 35
+ping: sendto: Host is down
+Request timeout for icmp_seq 36
+ping: sendto: Host is down
+Request timeout for icmp_seq 37
+ping: sendto: Host is down
+Request timeout for icmp_seq 38
+ping: sendto: Host is down
+Request timeout for icmp_seq 39
+ping: sendto: Host is down
+Request timeout for icmp_seq 40
+ping: sendto: Host is down
+Request timeout for icmp_seq 41
+ping: sendto: Host is down
+Request timeout for icmp_seq 42
+ping: sendto: Host is down
+Request timeout for icmp_seq 43
+ping: sendto: Host is down
+Request timeout for icmp_seq 44
+ping: sendto: Host is down
+Request timeout for icmp_seq 45
+ping: sendto: Host is down
+Request timeout for icmp_seq 46
+ping: sendto: Host is down
+Request timeout for icmp_seq 47
+ping: sendto: Host is down
+Request timeout for icmp_seq 48
+Request timeout for icmp_seq 49
+64 bytes from 192.168.1.50: icmp_seq=50 ttl=64 time=112.813 ms
+64 bytes from 192.168.1.50: icmp_seq=51 ttl=64 time=4.598 ms
+64 bytes from 192.168.1.50: icmp_seq=52 ttl=64 time=4.559 ms
+64 bytes from 192.168.1.50: icmp_seq=53 ttl=64 time=2.517 ms
+64 bytes from 192.168.1.50: icmp_seq=54 ttl=64 time=2.212 ms
+64 bytes from 192.168.1.50: icmp_seq=55 ttl=64 time=4.436 ms
+64 bytes from 192.168.1.50: icmp_seq=56 ttl=64 time=7.082 ms
+64 bytes from 192.168.1.50: icmp_seq=57 ttl=64 time=5.669 ms
+64 bytes from 192.168.1.50: icmp_seq=58 ttl=64 time=4.521 ms
+64 bytes from 192.168.1.50: icmp_seq=59 ttl=64 time=2.039 ms
+64 bytes from 192.168.1.50: icmp_seq=60 ttl=64 time=8.454 ms
+64 bytes from 192.168.1.50: icmp_seq=61 ttl=64 time=5.986 ms
+64 bytes from 192.168.1.50: icmp_seq=62 ttl=64 time=4.374 ms
+64 bytes from 192.168.1.50: icmp_seq=63 ttl=64 time=4.854 ms
+^C
+--- 192.168.1.50 ping statistics ---
+64 packets transmitted, 14 packets received, 78.1% packet loss
+round-trip min/avg/max/stddev = 2.039/12.437/112.813/27.891 ms
+Bhanu:~ Bhanu$ ssh pi@192.168.1.50
+pi@192.168.1.50's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jan 19 17:01:39 2016
+pi@mypi:~$ curl -LO https://github.com/ibm-messaging/iot-raspberrypi/releases/download/1.0.2.1/iot_1.0-2_armhf.deb
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   596    0   596    0     0    476      0 --:--:--  0:00:01 --:--:--   476
+100  110k  100  110k    0     0  35243      0  0:00:03  0:00:03 --:--:-- 82495
+pi@mypi:~$ sudo dpkg -i iot_1.0-2_armhf.deb
+Selecting previously unselected package iot.
+(Reading database ... 126994 files and directories currently installed.)
+Preparing to unpack iot_1.0-2_armhf.deb ...
+Unpacking iot (1.0-1) ...
+Setting up iot (1.0-1) ...
+Processing triggers for systemd (215-17+deb8u2) ...
+Processing triggers for libc-bin (2.19-18+deb8u1) ...
+pi@mypi:~$ service iot status
+● iot.service - LSB: IoT service
+   Loaded: loaded (/etc/init.d/iot)
+   Active: active (running) since Tue 2016-01-19 19:04:42 IST; 28s ago
+   CGroup: /system.slice/iot.service
+           └─1227 /opt/iot/iot /dev/null
+pi@mypi:~$ service iot getdeviceid
+The device ID is b827eb59946a
+For Real-time visualization of the data, visit http://quickstart.internetofthings.ibmcloud.com/?deviceId=b827eb59946a
+pi@mypi:~$ sudo nano /etc/iotsample-raspberrypi/device.cfg
+pi@mypi:~$ sudo service iot start
+pi@mypi:~$ Connection to 192.168.1.50 closed by remote host.
+Connection to 192.168.1.50 closed.
+Bhanu:~ Bhanu$ exit
+logout
+
+[Process completed]
+

@@ -1,0 +1,495 @@
+Last login: Sat Jan 16 10:29:17 on console
+Bhanu:~ Bhanu$ ssh pi@192.168.1.50
+pi@192.168.1.50's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Jan 15 19:14:35 2016
+pi@mypi:~ $ vncserver :1
+
+New 'X' desktop is mypi:1
+
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/mypi:1.log
+
+pi@mypi:~ $ sudo npm install --unsafe-perm sensortag
+npm WARN install Couldn't install optional dependency: Unsupported
+npm WARN install Couldn't install optional dependency: Unsupported
+- minimist@0.0.8 node_modules/usb/node_modules/node-pre-gyp/node_modules/mkdirp/node_modules/minimist
+- mkdirp@0.5.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/mkdirp
+- abbrev@1.0.7 node_modules/usb/node_modules/node-pre-gyp/node_modules/nopt/node_modules/abbrev
+- nopt@3.0.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/nopt
+- ansi@0.3.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/ansi
+- delegates@0.1.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+- core-util-is@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/core-util-is
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/inherits
+- isarray@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/isarray
+- process-nextick-args@1.0.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/process-nextick-args
+- string_decoder@0.10.31 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/string_decoder
+- util-deprecate@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream/node_modules/util-deprecate
+- readable-stream@2.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/readable-stream
+- are-we-there-yet@1.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/are-we-there-yet
+- has-unicode@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/has-unicode
+- lodash._basetostring@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._basetostring
+- lodash.repeat@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash._createpadding
+- lodash.pad@3.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad
+- lodash._basetostring@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring
+- lodash.repeat@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding
+- lodash.padleft@3.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft
+- lodash._basetostring@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring
+- lodash.repeat@3.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding
+- lodash.padright@3.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright
+- gauge@1.2.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge
+- npmlog@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/npmlog
+- deep-extend@0.4.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rc/node_modules/deep-extend
+- ini@1.3.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/rc/node_modules/ini
+- minimist@1.2.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rc/node_modules/minimist
+- strip-json-comments@1.0.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/rc/node_modules/strip-json-comments
+- rc@1.1.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/rc
+- aws-sign2@0.6.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/aws-sign2
+- core-util-is@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits
+- isarray@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray
+- process-nextick-args@1.0.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/process-nextick-args
+- string_decoder@0.10.31 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder
+- util-deprecate@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/util-deprecate
+- readable-stream@2.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl/node_modules/readable-stream
+- bl@1.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/bl
+- caseless@0.11.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/caseless
+- delayed-stream@1.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream
+- combined-stream@1.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/combined-stream
+- extend@3.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/extend
+- forever-agent@0.6.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/forever-agent
+- async@1.5.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/form-data/node_modules/async
+- ansi-styles@2.1.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/ansi-styles
+- escape-string-regexp@1.0.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/escape-string-regexp
+- ansi-regex@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+- has-ansi@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi
+- ansi-regex@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+- strip-ansi@3.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi
+- supports-color@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color
+- chalk@1.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk
+- graceful-readlink@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules/graceful-readlink
+- commander@2.9.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/commander
+- generate-function@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function
+- is-property@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules/is-property
+- generate-object-property@1.2.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property
+- jsonpointer@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer
+- xtend@4.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend
+- is-my-json-valid@2.12.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid
+- pinkie@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules/pinkie
+- pinkie-promise@2.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise
+- har-validator@2.0.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator
+- hoek@2.16.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/hawk/node_modules/hoek
+- boom@2.10.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/hawk/node_modules/boom
+- cryptiles@2.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/hawk/node_modules/cryptiles
+- sntp@1.0.9 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/hawk/node_modules/sntp
+- hawk@3.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/hawk
+- assert-plus@0.1.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/assert-plus
+- extsprintf@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf
+- json-schema@0.2.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema
+- verror@1.3.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror
+- jsprim@1.2.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/jsprim
+- asn1@0.2.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1
+- assert-plus@0.2.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus
+- assert-plus@0.1.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus
+- dashdash@1.11.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash
+- jsbn@0.1.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn
+- jodid25519@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519
+- ecc-jsbn@0.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn
+- tweetnacl@0.13.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl
+- sshpk@1.7.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature/node_modules/sshpk
+- http-signature@1.1.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/http-signature
+- is-typedarray@1.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/is-typedarray
+- isstream@0.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/isstream
+- json-stringify-safe@5.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/json-stringify-safe
+- mime-db@1.21.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/mime-types/node_modules/mime-db
+- mime-types@2.1.9 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/mime-types
+- form-data@1.0.0-rc3 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/form-data
+- node-uuid@1.4.7 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/node-uuid
+- oauth-sign@0.8.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/oauth-sign
+- qs@5.2.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/qs
+- stringstream@0.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/stringstream
+- tough-cookie@2.2.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/tough-cookie
+- tunnel-agent@0.4.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/request/node_modules/tunnel-agent
+- request@2.67.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/request
+- wrappy@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/inherits
+- balanced-match@0.3.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+- concat-map@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+- brace-expansion@1.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+- minimatch@3.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/minimatch
+- wrappy@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy
+- once@1.3.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/once
+- inflight@1.0.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/inflight
+- path-is-absolute@1.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute
+- glob@6.0.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob
+- rimraf@2.5.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/rimraf
+- semver@5.1.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/semver
+- debug@0.7.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/debug
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits
+- balanced-match@0.3.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+- concat-map@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+- brace-expansion@1.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion
+- minimatch@3.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch
+- graceful-fs@4.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/inherits
+- once@1.1.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/once
+- core-util-is@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits
+- isarray@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray
+- process-nextick-args@1.0.6 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/process-nextick-args
+- string_decoder@0.10.31 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder
+- util-deprecate@1.0.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream/node_modules/util-deprecate
+- readable-stream@2.0.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/readable-stream
+- wrappy@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/inherits
+- balanced-match@0.3.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+- concat-map@0.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+- brace-expansion@1.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+- minimatch@3.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/minimatch
+- wrappy@1.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy
+- once@1.3.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/once
+- inflight@1.0.4 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/inflight
+- path-is-absolute@1.0.0 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute
+- glob@6.0.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf/node_modules/glob
+- rimraf@2.4.5 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf
+- fstream@1.0.8 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream
+- fstream-ignore@1.0.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore
+- uid-number@0.0.3 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/uid-number
+- graceful-fs@4.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar/node_modules/fstream/node_modules/graceful-fs
+- inherits@2.0.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar/node_modules/inherits
+- fstream@1.0.8 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar/node_modules/fstream
+- block-stream@0.0.8 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar/node_modules/block-stream
+- tar@2.2.1 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar
+- tar-pack@3.1.2 node_modules/usb/node_modules/node-pre-gyp/node_modules/tar-pack
+/home/pi
+├─┬ node-red-node-sensortag@0.0.8
+│ └── sensortag@1.2.1 
+└── sensortag@1.2.1 
+
+npm WARN ENOENT ENOENT: no such file or directory, open '/home/pi/package.json'
+npm WARN EPACKAGEJSON pi No description
+npm WARN EPACKAGEJSON pi No repository field.
+npm WARN EPACKAGEJSON pi No README data
+npm WARN EPACKAGEJSON pi No license field.
+pi@mypi:~ $ hcitool
+hcitool - HCI Tool ver 5.23
+Usage:
+	hcitool [options] <command> [command parameters]
+Options:
+	--help	Display help
+	-i dev	HCI device
+Commands:
+	dev 	Display local devices
+	inq 	Inquire remote devices
+	scan	Scan for remote devices
+	name	Get name from remote device
+	info	Get information from remote device
+	spinq	Start periodic inquiry
+	epinq	Exit periodic inquiry
+	cmd 	Submit arbitrary HCI commands
+	con 	Display active connections
+	cc  	Create connection to remote device
+	dc  	Disconnect from remote device
+	sr  	Switch master/slave role
+	cpt 	Change connection packet type
+	rssi	Display connection RSSI
+	lq  	Display link quality
+	tpl 	Display transmit power level
+	afh 	Display AFH channel map
+	lp  	Set/display link policy settings
+	lst 	Set/display link supervision timeout
+	auth	Request authentication
+	enc 	Set connection encryption
+	key 	Change connection link key
+	clkoff	Read clock offset
+	clock	Read local or remote clock
+	lescan	Start LE scan
+	lewladd	Add device to LE White List
+	lewlrm	Remove device from LE White List
+	lewlsz	Read size of LE White List
+	lewlclr	Clear LE White list
+	lecc	Create a LE Connection
+	ledc	Disconnect a LE Connection
+	lecup	LE Connection Update
+
+For more information on the usage of each command use:
+	hcitool <command> --help
+pi@mypi:~ $ lescan
+-bash: lescan: command not found
+pi@mypi:~ $ sudo hcitool lescan
+Set scan parameters failed: File descriptor in bad state
+pi@mypi:~ $ hcitool lescan
+Set scan parameters failed: File descriptor in bad state
+pi@mypi:~ $ hcitool scan
+Device is not available: No such device
+pi@mypi:~ $ hciconfig
+pi@mypi:~ $ service bluetooth restart
+Failed to restart bluetooth.service: Access denied
+pi@mypi:~ $ sudo service bluetooth restart
+pi@mypi:~ $ exit
+logout
+Connection to 192.168.1.50 closed.
+Bhanu:~ Bhanu$ ~/.bashrc
+-bash: /Users/Bhanu/.bashrc: No such file or directory
+Bhanu:~ Bhanu$ grep | /.bashrc
+-bash: /.bashrc: No such file or directory
+usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+Bhanu:~ Bhanu$ grep | bashrc
+usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+-bash: bashrc: command not found
+Bhanu:~ Bhanu$ grep | -A
+-bash: -A: command not found
+usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+Bhanu:~ Bhanu$ which python
+/usr/bin/python
+Bhanu:~ Bhanu$ python --v
+Unknown option: --
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+Bhanu:~ Bhanu$ python --version
+Python 2.7.10
+Bhanu:~ Bhanu$ python3 --version
+Python 3.5.0
+Bhanu:~ Bhanu$ ssh pi@192.168.1.50
+pi@192.168.1.50's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sat Jan 16 08:01:01 2016 from 192.168.1.115
+pi@mypi:~ $ python3
+Python 3.4.2 (default, Oct 19 2014, 13:31:11) 
+[GCC 4.9.1] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import time
+>>> sec = time.wait(.02)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'wait'
+>>> sec = time.cockt()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'cockt'
+>>> sec = time.cock()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'cock'
+>>> sec = time.clock()
+>>> print sec
+  File "<stdin>", line 1
+    print sec
+            ^
+SyntaxError: Missing parentheses in call to 'print'
+>>> print ('sec')
+sec
+>>> print (sec)
+0.192814
+>>> sec = time.localtime()
+>>> print (sec)
+time.struct_time(tm_year=2016, tm_mon=1, tm_mday=16, tm_hour=10, tm_min=38, tm_sec=3, tm_wday=5, tm_yday=16, tm_isdst=0)
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+>>> exit()
+pi@mypi:~ $ python3
+Python 3.4.2 (default, Oct 19 2014, 13:31:11) 
+[GCC 4.9.1] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pip install paho-mqtt
+  File "<stdin>", line 1
+    pip install paho-mqtt
+              ^
+SyntaxError: invalid syntax
+>>> sudo install pip
+  File "<stdin>", line 1
+    sudo install pip
+               ^
+SyntaxError: invalid syntax
+>>> pip
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pip' is not defined
+>>> exit()
+pi@mypi:~ $ pip install paho-mqtt
+Downloading/unpacking paho-mqtt
+  Downloading paho-mqtt-1.1.tar.gz (41kB): 41kB downloaded
+  Running setup.py (path:/tmp/pip-build-kW8P5j/paho-mqtt/setup.py) egg_info for package paho-mqtt
+    
+Installing collected packages: paho-mqtt
+  Running setup.py install for paho-mqtt
+    error: could not create '/usr/local/lib/python2.7/dist-packages/paho': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-kW8P5j/paho-mqtt/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-hzXrYk-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-armv7l-2.7
+
+creating build/lib.linux-armv7l-2.7/paho
+
+copying src/paho/__init__.py -> build/lib.linux-armv7l-2.7/paho
+
+creating build/lib.linux-armv7l-2.7/paho/mqtt
+
+copying src/paho/mqtt/client.py -> build/lib.linux-armv7l-2.7/paho/mqtt
+
+copying src/paho/mqtt/__init__.py -> build/lib.linux-armv7l-2.7/paho/mqtt
+
+copying src/paho/mqtt/publish.py -> build/lib.linux-armv7l-2.7/paho/mqtt
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/paho
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/paho': Permission denied
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-kW8P5j/paho-mqtt/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-hzXrYk-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-kW8P5j/paho-mqtt
+Storing debug log for failure in /home/pi/.pip/pip.log
+pi@mypi:~ $ pip uninstall paho-mqtt
+Cannot uninstall requirement paho-mqtt, not installed
+Storing debug log for failure in /home/pi/.pip/pip.log
+pi@mypi:~ $ sudo pip uninstall paho-mqtt
+Cannot uninstall requirement paho-mqtt, not installed
+Storing debug log for failure in /root/.pip/pip.log
+pi@mypi:~ $ nano /root/.pip/pip.log
+pi@mypi:~ $ pip3 install paho-mqtt
+Downloading/unpacking paho-mqtt
+  Downloading paho-mqtt-1.1.tar.gz (41kB): 41kB downloaded
+  Running setup.py (path:/tmp/pip-build-_siwo77w/paho-mqtt/setup.py) egg_info for package paho-mqtt
+    
+Installing collected packages: paho-mqtt
+  Running setup.py install for paho-mqtt
+    error: could not create '/usr/local/lib/python3.4/dist-packages/paho': Permission denied
+    Complete output from command /usr/bin/python3 -c "import setuptools, tokenize;__file__='/tmp/pip-build-_siwo77w/paho-mqtt/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-89mziijb-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib
+
+creating build/lib/paho
+
+copying src/paho/__init__.py -> build/lib/paho
+
+creating build/lib/paho/mqtt
+
+copying src/paho/mqtt/client.py -> build/lib/paho/mqtt
+
+copying src/paho/mqtt/__init__.py -> build/lib/paho/mqtt
+
+copying src/paho/mqtt/publish.py -> build/lib/paho/mqtt
+
+running install_lib
+
+creating /usr/local/lib/python3.4/dist-packages/paho
+
+error: could not create '/usr/local/lib/python3.4/dist-packages/paho': Permission denied
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python3 -c "import setuptools, tokenize;__file__='/tmp/pip-build-_siwo77w/paho-mqtt/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-89mziijb-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-_siwo77w/paho-mqtt
+Storing debug log for failure in /home/pi/.pip/pip.log
+pi@mypi:~ $ sudo pip install paho-mqtt
+Downloading/unpacking paho-mqtt
+  Downloading paho-mqtt-1.1.tar.gz (41kB): 41kB downloaded
+  Running setup.py (path:/tmp/pip-build-3DiaMr/paho-mqtt/setup.py) egg_info for package paho-mqtt
+    
+Installing collected packages: paho-mqtt
+  Running setup.py install for paho-mqtt
+    
+Successfully installed paho-mqtt
+Cleaning up...
+pi@mypi:~ $ python3
+Python 3.4.2 (default, Oct 19 2014, 13:31:11) 
+[GCC 4.9.1] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+pi@mypi:~ $ mosquitto
+-bash: mosquitto: command not found
+pi@mypi:~ $ mosquitto
+-bash: mosquitto: command not found
+pi@mypi:~ $ sudo apt-get install mosquitto
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  mosquitto
+0 upgraded, 1 newly installed, 0 to remove and 48 not upgraded.
+Need to get 101 kB of archives.
+After this operation, 190 kB of additional disk space will be used.
+Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main mosquitto armhf 1.3.4-2 [101 kB]
+Fetched 101 kB in 2s (48.8 kB/s)
+Selecting previously unselected package mosquitto.
+(Reading database ... 126897 files and directories currently installed.)
+Preparing to unpack .../mosquitto_1.3.4-2_armhf.deb ...
+Unpacking mosquitto (1.3.4-2) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (215-17+deb8u2) ...
+Setting up mosquitto (1.3.4-2) ...
+Processing triggers for systemd (215-17+deb8u2) ...
+pi@mypi:~ $ mosquitto
+1452932239: mosquitto version 1.3.4 (build date 2014-08-22 06:10:51+0000) starting
+1452932239: Using default config.
+1452932239: Opening ipv4 listen socket on port 1883.
+1452932239: Error: Address already in use
+pi@mypi:~ $ sudo apt-get install lsof
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libperl4-corelibs-perl
+The following NEW packages will be installed:
+  libperl4-corelibs-perl lsof
+0 upgraded, 2 newly installed, 0 to remove and 48 not upgraded.
+Need to get 365 kB of archives.
+After this operation, 736 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libperl4-corelibs-perl all 0.003-1 [43.6 kB]
+Get:2 http://mirrordirector.raspbian.org/raspbian/ jessie/main lsof armhf 4.86+dfsg-1 [321 kB]
+Fetched 365 kB in 2s (180 kB/s)
+Selecting previously unselected package libperl4-corelibs-perl.
+(Reading database ... 126927 files and directories currently installed.)
+Preparing to unpack .../libperl4-corelibs-perl_0.003-1_all.deb ...
+Unpacking libperl4-corelibs-perl (0.003-1) ...
+Selecting previously unselected package lsof.
+Preparing to unpack .../lsof_4.86+dfsg-1_armhf.deb ...
+Unpacking lsof (4.86+dfsg-1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up libperl4-corelibs-perl (0.003-1) ...
+Setting up lsof (4.86+dfsg-1) ...
+pi@mypi:~ $ sudo lsof -i TCP:1883
+COMMAND    PID      USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+mosquitto 3686 mosquitto    3u  IPv4  19522      0t0  TCP *:1883 (LISTEN)
+mosquitto 3686 mosquitto    5u  IPv6  19523      0t0  TCP *:1883 (LISTEN)
+pi@mypi:~ $ 
